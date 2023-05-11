@@ -34,7 +34,7 @@ Write the detailed procedure here
 
 ## Program:
 
-/*
+```
 module halfsubractor(A,B,Diff,Borrow);
 input A,B;
 output Diff,Borrow;
@@ -42,9 +42,12 @@ wire x;
 xor (Diff, A,B);
 not(x,A);
 and(Borrow,x,B);
-endmodule 
+endmodule
+```
+```
+```
 
-
+/*
 Program to design a half subtractor and full subtractor circuit and verify its truth table in quartus using Verilog programming.
 Developed by: 
 RegisterNumber:  
