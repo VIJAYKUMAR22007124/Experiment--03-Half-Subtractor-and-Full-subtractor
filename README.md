@@ -33,7 +33,7 @@ Write the detailed procedure here
 
 
 ## Program:
-
+## Half Subtractor
 ```
 module halfsubractor(A,B,Diff,Borrow);
 input A,B;
@@ -44,7 +44,9 @@ not(x,A);
 and(Borrow,x,B);
 endmodule
 ```
+## Full Subtractor
 ```
+
 ```
 
 /*
