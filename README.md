@@ -76,10 +76,14 @@ RegisterNumber: 212222230173
 
 ![sub](https://github.com/VIJAYKUMAR22007124/Experiment--03-Half-Subtractor-and-Full-subtractor/assets/119657657/9f0c9427-fc95-4118-a356-bd3093ac225f)
 
+![Screenshot 2023-05-15 082859](https://github.com/VIJAYKUMAR22007124/Experiment--03-Half-Subtractor-and-Full-subtractor/assets/119657657/0cda62a3-163a-43fd-a686-97267300366e)
+
 
 
 ## Timing diagram 
 ![sub1](https://github.com/VIJAYKUMAR22007124/Experiment--03-Half-Subtractor-and-Full-subtractor/assets/119657657/d1a5f4fd-c0a1-4501-80e4-7c9a44aa3b0c)
+
+![Screenshot (400)](https://github.com/VIJAYKUMAR22007124/Experiment--03-Half-Subtractor-and-Full-subtractor/assets/119657657/0b6a2ab7-6f1e-4fc0-a1cb-e8f2b74f6e92)
 
 
 ## Result:
