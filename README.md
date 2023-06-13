@@ -1,4 +1,4 @@
-# Experiment--03-Half-Subtractor-and-Full-subtractor
+# Experiment--04-Half-Subtractor-and-Full-subtractor
 ## Implementation-of-Half-subtractor-and-Full-subtractor-circuit
 ## AIM:
 To design a half subtractor and full subtractor circuit and verify its truth table in Quartus using Verilog programming.
@@ -29,10 +29,11 @@ Diff = A ⊕ B ⊕ Bin B = A'Bin + A'B + BBin
 
 
 
-Write the detailed procedure here 
+
 
 
 ## Program:
+
 ## Half Subtractor
 ```
 module halfsubractor(A,B,Diff,Borrow);
@@ -44,6 +45,7 @@ not(x,A);
 and(Borrow,x,B);
 endmodule
 ```
+
 ## Full Subtractor
 ```
 module fullsubactor(A,B,C,Diff,Borrow);
@@ -56,20 +58,18 @@ assign Borrow = ((p&B)|(p&C)|(B&C));
 endmodule
 ```
 
-/*
+
 Program to design a half subtractor and full subtractor circuit and verify its truth table in quartus using Verilog programming.
+
+
 Developed by: B.VIJAY KUMAR
+
+
 RegisterNumber: 212222230173
-*/
+
 
 ## Output:
 
-## Truthtable
-
-![tr3](https://github.com/VIJAYKUMAR22007124/Experiment--03-Half-Subtractor-and-Full-subtractor/assets/119657657/26a94079-105b-4445-b624-7f65ba7bbff4)
-
-
-![tr4](https://github.com/VIJAYKUMAR22007124/Experiment--03-Half-Subtractor-and-Full-subtractor/assets/119657657/51feb8c9-ff24-4bda-bff7-14f412e0e3b2)
 
 
 ##  RTL realization
@@ -84,6 +84,14 @@ RegisterNumber: 212222230173
 ![sub1](https://github.com/VIJAYKUMAR22007124/Experiment--03-Half-Subtractor-and-Full-subtractor/assets/119657657/d1a5f4fd-c0a1-4501-80e4-7c9a44aa3b0c)
 
 ![Screenshot (400)](https://github.com/VIJAYKUMAR22007124/Experiment--03-Half-Subtractor-and-Full-subtractor/assets/119657657/0b6a2ab7-6f1e-4fc0-a1cb-e8f2b74f6e92)
+
+
+## Truthtable
+
+![tr3](https://github.com/VIJAYKUMAR22007124/Experiment--03-Half-Subtractor-and-Full-subtractor/assets/119657657/26a94079-105b-4445-b624-7f65ba7bbff4)
+
+
+![tr4](https://github.com/VIJAYKUMAR22007124/Experiment--03-Half-Subtractor-and-Full-subtractor/assets/119657657/51feb8c9-ff24-4bda-bff7-14f412e0e3b2)
 
 
 ## Result:
